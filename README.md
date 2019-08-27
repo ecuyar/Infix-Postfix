@@ -34,7 +34,7 @@ Examples:
  --- | --- | --- | --- 
 A * B + C / D |	A B * C D / + |	+ * A B / C D	| multiply A and B, divide C by D, add the results
 A * (B + C) / D |	A B C + * D / | / * A + B C D	| add B and C, multiply by A, divide by D
-A * (B + C / D)	| B C D / + *	| * A + B / C D	| divide C by D, add B, multiply by A
+A * (B + C / D)	| A B C D / + *	| * A + B / C D	| divide C by D, add B, multiply by A
 
 
 
